@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginpage"
+    android:background="#C91945"
+
+    >
+
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+        android:src="@drawable/imgelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/layout1">
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/edittext1"
+            android:hint="user name"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="95dp"
+            android:layout_marginEnd="40dp"
+            android:src="@drawable/user1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:layout_marginLeft="201dp"
+            android:text=""
+            android:textColor="#C91945"
+
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/userName"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/edittext1"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:paddingLeft="25dp"
+            android:textColorHint="@color/black"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="343dp"
+            android:layout_marginTop="190dp"
+            android:src="@drawable/pass" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="195dp"
+            android:layout_marginTop="230dp"
+            android:text=""
+            android:textColor="#C91945"
+            android:textSize="18dp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/frogetpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="300dp"
+            android:text="Froget password?"
+            android:textColor="#C91945"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/signIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frogetpass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="Sign in"
+            android:textColor="#C91945"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/frogetpass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp"
+            android:text="create Acunt"
+            android:textColor="#C91945"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+

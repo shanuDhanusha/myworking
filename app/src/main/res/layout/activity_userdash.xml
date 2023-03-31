@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userdash"
+    android:background="#E96868"
+
+    >
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/layout1"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/rebrith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/edittext1"
+            android:src="@drawable/comp" />
+
+
+        <ImageView
+            android:id="@+id/respecile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comp2"
+            android:background="@drawable/edittext1"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="240dp"/>
+
+        <ImageView
+            android:id="@+id/respecilNote"
+            android:background="@drawable/edittext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comp3"
+            android:layout_marginTop="290dp"
+            android:layout_marginStart="60dp"/>
+
+        <ImageView
+
+            android:id="@+id/redayNote"
+            android:background="@drawable/edittext1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/comp4"
+            android:layout_marginTop="290dp"
+            android:layout_marginStart="240dp"/>
+
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/edittext1"
+            app:backgroundTint="#E96868"
+            android:textStyle="bold"
+            android:text="logout"
+            android:textAllCaps="false"/>
+
+
+
+
+</RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/logodash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/imgelogo" />
+
+
+
+
+</RelativeLayout>
